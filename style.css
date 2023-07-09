@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* topbar style */
+.topbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: gray;
+  align-items: center;
+}
+.logo{}
+.logo img{}
+.menu ul{
+display: flex;
+}
+.menu li{
+  margin-left: 20px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+}
+/* banner style */
+.banner{
+  background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7));
+  background-blend-mode: overlay;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text{
+  width: 50%;
+
+  margin: auto;
+}
+.banner-text h1{
+  font-size: 70px;
+  color: #fff;
+}
+.banner-text h1 span{
+  color: red;
+}
+.banner-text p{
+ width: 80%;
+ margin: 20px 0;
+ color: #fff;
+ font-size: 20px;
+}
+.discover,.hire{
+  border: none;
+  padding: 15px 45px;
+  
+  background-image: linear-gradient(45deg,cyan,purple);
+color: #fff;
+
+font-size: 17px;
+font-weight: 700;
+text-transform: uppercase;
+cursor: pointer;
+}
+.hire{
+  margin-left: 10px;
+  background-image: linear-gradient(90deg,green,cyan);
+}
